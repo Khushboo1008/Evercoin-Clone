@@ -1,0 +1,8 @@
+@import "/styles/config/utilities";
+
+.header {
+    @include flex_layout(center,space-between);
+    display: flex;
+    height: 9rem;
+    margin: 0rem 10rem 0rem 9rem;
+}
