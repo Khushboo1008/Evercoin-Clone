@@ -1,9 +1,10 @@
 .footer{
     background-color: #3e4d53;
-    height: 100%;
+    // height: 100%;
     @media screen and (max-width:1000px) {     
         position: relative;
-        top:10rem;
+        // top:10rem;
+        margin-top: 20rem;
         // margin-bottom: 25rem;
     }
     .footer_head{
@@ -51,11 +52,12 @@
     .mob_view{
         display: flex;
         justify-content: center;
+        margin-bottom: 2rem;
     }
     .list{
         display: flex;
         justify-content: center;
-        padding-bottom: 2rem;
+        // padding-bottom: 2rem;
         .full_list{
             text-decoration: none;
             color: #fff;

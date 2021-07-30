@@ -10,7 +10,7 @@ export const SETTINGS = (infinite = true, autoplay = false, toShow=3, toScroll =
         cssEase: "linear",
         responsive: [
             {
-                breakpoint: 320,
+                breakpoint: 420,
                 settings: { slidesToShow: 2, slidesToScroll: 1 }
             },
             {
