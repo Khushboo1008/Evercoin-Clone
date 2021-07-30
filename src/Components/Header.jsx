@@ -12,6 +12,10 @@ export const Header = () => {
                         <div className="nav_subpart">HOME</div>
                         <div className="nav_subpart">FAQ</div>
                     </div>
+                    <div className="mob_nav">
+                        <div className="nav_subpart">FAQ</div>
+                    </div>
+
             </div>
     )
 }

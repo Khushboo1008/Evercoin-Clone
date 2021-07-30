@@ -44,6 +44,7 @@
             .line{
                 @media screen  and (max-width: 1000px) {
                     @include flex_layout(center,center);
+                    margin-bottom: 2rem;
                 }
                 .green_line{
                     width: 7rem;

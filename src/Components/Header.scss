@@ -27,6 +27,24 @@
         margin-left: 10rem;
         .nav_subpart{
             margin-left: 1rem;
+            font-family: Poppins,sans-serif;
+        }
+        @media screen and (max-width: 1000px) {
+           display: none;
+        }
+
+    }
+    .mob_nav{
+        display: none;
+        @media screen and (max-width: 1000px) {      
+            display: flex;
+            margin-right: 10rem;
+            margin-left: 10rem;
+        }
+        .nav_subpart{
+            margin-right: 1rem;
+            font-family: Poppins,sans-serif;
+
         }
         @media screen and (max-width: 1000px) {
         //    display: none;

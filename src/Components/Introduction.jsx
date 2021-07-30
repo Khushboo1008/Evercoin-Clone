@@ -27,8 +27,7 @@ export const Introduction = () => {
                     <div className="input">
                         <div className="mob_input">
                             <PhoneInput
-                            country='de'
-                            regions={'europe'}
+                            placeholder="+1 Phone Number"
                             />                     
                         </div>
                         <div>
