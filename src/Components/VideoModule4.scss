@@ -1,0 +1,106 @@
+@import "/styles/config/utilities";
+
+.vid_section{
+    @include flex_layout(initial,center);
+    position: relative;
+    top:20rem;
+    @media screen and (max-width: 1000px) {
+        display: block;
+    }
+    .section_main{
+        @include flex_layout(initial,center);
+        margin: 0rem 5rem 0rem 12rem;
+        @media screen and (max-width: 1000px) {
+            // @include flex_layout(center,center);
+            // display: block;
+            margin: 0;
+            align-items: center;
+        }
+        .section_content{
+            align-self: center;
+            width: 100%;
+            @media screen and (max-width: 1000px) {
+                // display: block;
+                margin: 0 !important;
+                text-align: center;
+                justify-content: center;
+            }
+            .line{
+                @media screen  and (max-width: 1000px) {
+                    @include flex_layout(center,center);
+                }
+                .green_line{
+                    height: 3px;
+                    width: 7rem;
+                    background: #03a67b;
+                    margin-bottom: 2rem;
+                    margin-left: 3rem;
+                    @media screen  and (max-width: 1000px) {
+                        justify-self: center;
+                        // text-align: center;
+                        margin: 0 !important;
+                    }
+                }
+            }
+            .section_text{
+                margin-right: 8rem;
+                margin-left: 3rem;
+                @media screen and (max-width: 1000px) {
+                    // display: block;
+                    margin: 0;
+                    text-align: center;
+                }
+                .section_text_1{
+                    font-size: 28px;
+                    color: #3e4d53;
+                    line-height: 32px;
+                    margin-bottom: 1rem;
+                    font-weight: 500;
+                    font-family: Poppins,sans-serif;
+                    // margin-right: 10rem;
+                    @media screen and (max-width: 1000px) {
+                        // display: block;
+                        margin: 0;
+                        align-self: center;
+                        justify-self: center;
+                        font-size: 1.2rem;
+                    }
+                }
+                .section_text_2{
+                    margin-left: auto;
+                    margin-right: 0;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    line-height: 1.8rem;
+                    font-family: 'Montserrat',sans-serif;
+                    color: #3e4d53;
+                    @media screen and (max-width: 1000px) {
+                        // display: block;
+                        margin: 0;
+                        align-self: center;
+                        justify-self: center;
+                        font-size: 0.9rem;
+                        margin: 0.4rem;
+                    }
+                }
+            }
+        }
+        .desk_section_video{
+            @media screen and (max-width: 1000px) {
+                display: none;                
+            }
+        }
+    }
+    .mob_section_video{
+        display: none;
+        @media screen and (max-width: 1000px) {
+            @include flex_layout(initial,center);
+            position: relative;
+            top:0rem;      
+            .mob_video{
+                width:25rem
+            }      
+        }
+    }
+
+}

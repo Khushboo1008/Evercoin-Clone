@@ -1,0 +1,22 @@
+.main_carousel{
+    display: flex;
+    // position: relative;
+    // width: 100%;
+    height: 100%;
+//   padding: 12rem 2rem 1.7rem 2rem;
+.slider{
+    // position: relative;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+}
+.slick-slide {
+    // height: 40px;
+    box-sizing: border-box;
+}
+
+.slick-slide img {
+    height: 50%;
+    width: 50%;
+    box-sizing: border-box;
+}

@@ -1,0 +1,144 @@
+@import "/styles/config/utilities";
+.intro{
+    @include flex_layout(initial,flex-start);
+    position: relative;
+    top: 15rem;
+    margin: 0rem 10rem 5rem 11rem;
+    height: 39rem;
+    @media screen and (max-width: 1000px) {
+        @include flex_layout(initial,center);
+        // display: block;
+        justify-self: center;
+        // margin: 12rem 0rem;
+        margin: 0;
+        top: 5rem;
+        height: 20rem;
+        // top:;
+    }
+    .intro_item{
+        width: 75%;
+        font-size: 2.2rem;
+        font-weight: 600;
+        opacity: .9;
+        color: #3e4d53;
+        font-family: 'Poppins', sans-serif;
+        @media screen and (max-width: 1000px) {
+            text-align: center;
+            margin: 0;
+            // margin: 0rem 1rem;
+            width: 100%;
+            font-size: 1.6rem;
+            display: block;
+        }
+    }
+    .intro_item_1{
+        position: relative;
+        top: 0.3rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        width: 70%;
+        opacity: .9;
+        margin: 0;
+        margin-bottom: 1rem;
+        font-family: 'Poppins', sans-serif;
+        color: #3e4d53;
+        @media screen and (max-width: 1000px) {
+            text-align: center;
+            margin: 0;
+            width: 100%;
+            font-size: 0.9rem;
+            display: block;
+        }
+
+    }
+    .desk_view{
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+        .intro_item_2{
+            position: relative;
+            font-size: 1.1rem;
+            font-weight: 400;
+            width: 70%;
+            opacity: .9;
+            margin: 0;
+            margin-bottom: 1rem;
+            font-family: 'Poppins', sans-serif;
+            color: #3e4d53;
+            @media screen and (max-width: 1000px) {
+                text-align: center;
+                margin: 0;
+                width: 100%;
+                font-size: 0.9rem;
+            }
+    
+        }
+        .input{
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            @media screen and (max-width:1000px) {
+                justify-content: center;
+                top:2rem;
+            }
+    
+            .button {
+                    text-decoration: none;
+                    height: 48px ;
+                    position: relative;
+                    left: 1rem;
+                    background-color: #03a67b;
+                    color: #fff;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    line-height: 1.5rem;
+                    border-radius: 0.25rem;
+                    padding: 0.7rem 1rem;
+                    font-family: inherit;
+            }
+        }
+    }
+    .mob_view{
+        display: none;
+        @media screen and (max-width: 1000px) {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 2rem;
+        }
+    }
+    .desk_img{
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+        .Image{
+            display: inline-block;
+            position: absolute;
+            top: -5.2rem;
+            left: 28rem;
+            max-height: 710px;
+            width: 75%;
+        }
+    }
+}
+.mob_img{
+    display: none;
+    @media screen and (max-width: 1000px) {
+        display: block;
+        .Image{
+            position: relative;
+            left: 8rem;
+            justify-self: center;
+            width: 280px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        display: block;
+        .Image{
+            position: relative;
+            left: 5rem;
+            justify-self: center;
+            width: 280px;
+        }
+    }
+}
