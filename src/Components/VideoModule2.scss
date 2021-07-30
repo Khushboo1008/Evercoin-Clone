@@ -1,4 +1,4 @@
-@import "/styles/config/utilities";
+@import "../styles/config/utilities";
 
 .video_section{
     @include flex_layout(initial,center);
