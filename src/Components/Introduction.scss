@@ -7,14 +7,14 @@
     height: 39rem;
     @media screen and (max-width: 1000px) {
         @include flex_layout(initial,center);
-        // display: block;
         justify-self: center;
-        // margin: 12rem 0rem;
         margin: 0;
         top: 5rem;
         height: 20rem;
-        // top:;
     }
+    // @media screen and (max-width: 300px) {
+    //     bottom: 4rem;
+    // }
     .intro_item{
         width: 75%;
         font-size: 2.2rem;
@@ -77,15 +77,20 @@
             display: flex;
             justify-content: flex-start;
             position: relative;
+            height: 48px !important;
             @media screen and (max-width:1000px) {
                 justify-content: center;
                 top:2rem;
+            }
+            .mob_input{
+                padding-top: 2px;
             }
     
             .button {
                     text-decoration: none;
                     height: 48px ;
                     position: relative;
+                    top:0.2rem;
                     left: 1rem;
                     background-color: #03a67b;
                     color: #fff;
@@ -124,12 +129,20 @@
 .mob_img{
     display: none;
     @media screen and (max-width: 1000px) {
-        display: block;
+        display: flex !important;
+        justify-content: center;
         .Image{
-            position: relative;
-            left: 8rem;
+            // position: relative;
             justify-self: center;
-            width: 280px;
+            width: 15rem;
+            left: 0 !important;
+            @media screen and (max-width: 400px) {
+                justify-self: center;
+                width: 10rem;
+                left: 0 !important;
+            }
+
+
         }
     }
     @media screen and (max-width: 500px) {
@@ -139,6 +152,14 @@
             left: 5rem;
             justify-self: center;
             width: 280px;
+            @media screen and (max-width: 300px) {
+                align-self: center;
+                justify-self: center;
+                top: 3rem;
+                width: 200px;
+                left: 0 !important;
+                margin-bottom: 3.5rem;
+            }
         }
     }
 }

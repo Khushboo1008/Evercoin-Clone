@@ -13,7 +13,7 @@ export const VideoModule1 = () => {
                     </video>
                 </div>
                 <div className="desk_section_content">
-                    <div class="line">
+                    <div className="line">
                     <div className="green_line"></div>
                     </div>
                     <div className="section_text">
@@ -23,7 +23,7 @@ export const VideoModule1 = () => {
                     </div>
                 </div>
                 <div className="mob_section_video">
-                    <video height="950px" autoPlay muted loop src={mob_video} type="video/mp4">
+                    <video className="mob_vid" autoPlay muted loop src={mob_video} type="video/mp4">
                     </video>
                 </div>
             </div>

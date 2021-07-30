@@ -33,6 +33,10 @@
                 position: relative;
                 top:3rem;
             }
+            .mob_vid{
+                @include flex_layout(center,center);
+                width: 20rem;
+            }
         }
         .desk_section_content{
             align-self: center;

@@ -35,29 +35,30 @@
             color: #3e4d53;      
         }
     }
-    .image{
-        position: absolute;
-        top: 63rem;
-        height: 19rem;
-        left: 34rem;
-        align-self:center;
-        @media screen and (max-width:1000px) {
-            position: relative;
-            top:-8.5rem;
-            height:15rem; 
-            left: 8rem;
-            align-self:center;
-            justify-self: center;
-   
-        }
-        @media screen and (max-width:500px) {
-            position: relative;
-            top:-6.5rem;
-            height:11rem; 
-            left: 0rem;
-            align-self:center;
+    .green_image{
 
-   
+        .image{
+            position: absolute;
+            top: 63rem;
+            height: 19rem;
+            left: 34rem;
+            align-self:center;
+            @media screen and (max-width:1000px) {
+                position: relative;
+                top:-8.5rem;
+                height:15rem; 
+                left: 8rem;
+                align-self:center;
+                justify-self: center;
+       
+            }
+            @media screen and (max-width:500px) {
+                position: relative;
+                top:-6.5rem;
+                height:11rem; 
+                left: 0rem;
+                align-self:center;    
+            }
         }
     }
 }

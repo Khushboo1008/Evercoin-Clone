@@ -3,15 +3,12 @@
 .header {
 @include flex_layout(center,space-between);
     position:fixed;
-    overflow: hidden;
+    // overflow: hidden;
     z-index: 1;
     background: #ffffff;
     height: 5rem;
     width: 100%;
     top:0;
-    // margin-left: 12rem;
-    // margin: 0rem 10rem 0rem 9rem;
-    // padding: 0rem 2rem 0rem 2rem;
     @media screen and (max-width: 1000px) {
         @include flex_layout(center,space-between);
         margin: 0rem;

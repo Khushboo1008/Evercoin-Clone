@@ -24,7 +24,7 @@ export const VideoModule2 = () => {
                 </div>
             </div>
             <div className="mob_section_video">
-                <video class="mob_video" autoPlay muted loop >
+                <video className="mob_video" autoPlay muted loop >
                     <source src={video} type="video/mp4"/>
                 </video>
             </div>

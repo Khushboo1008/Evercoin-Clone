@@ -4,6 +4,10 @@ import Img from "./../assets/image1.png"
 import playstore from "./../assets/appstore.svg"
 import googleplay from "./../assets/googleplay.svg"
 import Img3 from '../assets/image3.png'
+import PhoneInput from "react-phone-input-2";
+import 'react-phone-input-2/lib/style.css'
+
+
 
 
 
@@ -18,11 +22,14 @@ export const Introduction = () => {
                 </div>
                 <p className="intro_item_1" >Your Key, Your Crypto.</p>
                 <p className="intro_item_1" >Evercoin is now integrated with YubiKey to provide the safest cryptocurrency wallet.</p>
-                <div class="desk_view">
+                <div className="desk_view">
                     <p className="intro_item_2" >Enter your phone number to download the app</p>
-                    <div class="input">
-                        <div>
-                        <input type="tel" placeholder="" id="telephone"></input>
+                    <div className="input">
+                        <div className="mob_input">
+                            <PhoneInput
+                            country='de'
+                            regions={'europe'}
+                            />                     
                         </div>
                         <div>
                         <a href="#home"className="button">Get the App</a>

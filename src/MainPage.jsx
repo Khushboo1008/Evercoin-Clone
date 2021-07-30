@@ -1,4 +1,5 @@
 import React from 'react'
+import { Copyright } from './Components/Copyright'
 import { Footer } from './Components/Footer'
 import { Header } from './Components/Header'
 import { Introduction } from './Components/Introduction'
@@ -19,6 +20,7 @@ export const MainPage = () => {
             <VideoModule3/>
             <VideoModule4/>
             <Footer/>
+            <Copyright/>
         </div>
     )
 }
