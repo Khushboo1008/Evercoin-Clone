@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Evercoin-Clone/static/css/main.24576b4a.chunk.css",
-    "main.js": "/Evercoin-Clone/static/js/main.f2758443.chunk.js",
-    "main.js.map": "/Evercoin-Clone/static/js/main.f2758443.chunk.js.map",
+    "main.css": "/Evercoin-Clone/static/css/main.3416cb46.chunk.css",
+    "main.js": "/Evercoin-Clone/static/js/main.295c14c2.chunk.js",
+    "main.js.map": "/Evercoin-Clone/static/js/main.295c14c2.chunk.js.map",
     "runtime-main.js": "/Evercoin-Clone/static/js/runtime-main.a3e057fe.js",
     "runtime-main.js.map": "/Evercoin-Clone/static/js/runtime-main.a3e057fe.js.map",
     "static/css/2.b1fa72f2.chunk.css": "/Evercoin-Clone/static/css/2.b1fa72f2.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.33e72698.chunk.js.map": "/Evercoin-Clone/static/js/2.33e72698.chunk.js.map",
     "index.html": "/Evercoin-Clone/index.html",
     "static/css/2.b1fa72f2.chunk.css.map": "/Evercoin-Clone/static/css/2.b1fa72f2.chunk.css.map",
-    "static/css/main.24576b4a.chunk.css.map": "/Evercoin-Clone/static/css/main.24576b4a.chunk.css.map",
+    "static/css/main.3416cb46.chunk.css.map": "/Evercoin-Clone/static/css/main.3416cb46.chunk.css.map",
     "static/js/2.33e72698.chunk.js.LICENSE.txt": "/Evercoin-Clone/static/js/2.33e72698.chunk.js.LICENSE.txt",
     "static/media/Dogecoin.be6a587d.png": "/Evercoin-Clone/static/media/Dogecoin.be6a587d.png",
     "static/media/Qtum.4cfb8edc.png": "/Evercoin-Clone/static/media/Qtum.4cfb8edc.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.a3e057fe.js",
     "static/css/2.b1fa72f2.chunk.css",
     "static/js/2.33e72698.chunk.js",
-    "static/css/main.24576b4a.chunk.css",
-    "static/js/main.f2758443.chunk.js"
+    "static/css/main.3416cb46.chunk.css",
+    "static/js/main.295c14c2.chunk.js"
   ]
 }
