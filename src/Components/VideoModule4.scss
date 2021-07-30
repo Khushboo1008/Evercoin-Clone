@@ -3,9 +3,10 @@
 .vid_section{
     @include flex_layout(initial,center);
     position: relative;
-    top:20rem;
+    top:12rem;
     @media screen and (max-width: 1000px) {
         display: block;
+        top:20rem;
     }
     .section_main{
         @include flex_layout(initial,center);
@@ -86,6 +87,10 @@
             }
         }
         .desk_section_video{
+            position: relative;
+            top: 0rem;
+            height: 700px;
+            padding-bottom: 15rem;
             @media screen and (max-width: 1000px) {
                 display: none;                
             }

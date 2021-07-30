@@ -1,10 +1,10 @@
 .footer{
     background-color: #3e4d53;
     height: 100%;
-    margin-bottom: 25rem;
     @media screen and (max-width:1000px) {     
         position: relative;
         top:10rem;
+        margin-bottom: 25rem;
     }
     .footer_head{
         font-size: 3rem;
